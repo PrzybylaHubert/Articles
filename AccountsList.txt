@@ -1,0 +1,12 @@
+1. 
+Login: admin	
+Password: admin
+
+2.
+Login: user1
+Password: user1
+
+3.
+Login: user2
+Password: user2
+

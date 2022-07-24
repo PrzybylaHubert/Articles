@@ -46,7 +46,7 @@
         }
 
         private function titleMaxLength(){
-            return strlen($this->desc)>30 ? false : true;
+            return strlen($this->title)>30 ? false : true;
         }
 
         private function titleDescMinlength(){

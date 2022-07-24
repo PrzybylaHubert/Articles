@@ -3,6 +3,9 @@
     require_once('../classes/article-changeVisibility.php');
 
     $changeVisibility = new articlesChangeVisibility($_GET['id'], $_SESSION['login']);
-    $changeVisibility->changeVisibility();
-    header("location: ../index.php?statusChange=1");
+    if($changeVisibility->changeVisibility())
+        header("location: ../index.php?statusChange=1");
+    else{
+        header("location: ../index.php?statusChange=0");
+    }
 ?>
