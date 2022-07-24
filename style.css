@@ -1,0 +1,50 @@
+body{
+    margin:0;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    padding: 5px 50px;
+    font-size: 175%;
+    background-color: rgb(220,220,220);
+    border-bottom: solid black 2px;
+}
+
+.main{
+    display:flex;
+}
+
+.articles{
+    width:70%;
+    background-color: rgb(220,220,220);
+    padding: 0 25px 25px 25px;
+}
+
+.add-article-form{
+    width:30%;
+    padding: 0 25px 25px 25px;
+    background-color: rgb(240,240,240);
+}
+
+.article{
+    border: solid black 1px;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 0px;
+    background-color: rgb(240,240,240);
+    display:flex;
+}
+
+.article h4{
+    margin:0 0 10px 0;
+}
+
+.article-content{
+    width:75%;
+}
+
+.article-utility{
+    width:25%;
+    padding-left: 10px;
+    border-left: solid black 1px;
+}
