@@ -3,7 +3,7 @@
         private $host = 'localhost';
         private $user = 'root';
         private $pwd = '';
-        private $db_name = 'aurora_creation_task';
+        private $db_name = 'articles';
 
         protected function connection(){
             try{
